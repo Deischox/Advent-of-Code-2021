@@ -11,7 +11,7 @@ def one():
     rules = [i.split(' -> ')[0] for i in lines]
     to = [i.split(' -> ')[1] for i in lines]
 
-    for u in range(40):
+    for u in range(10):
         print(u)
         new = ""
         for i in range(len(start)):
